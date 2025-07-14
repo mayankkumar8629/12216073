@@ -1,6 +1,6 @@
 import express from "express";
 import { urlShortner,redirectToOrginalUrl } from "../controllers/urlController.js";
-import {logger} from "../../logging/index.js";
+import logger from "../../logging/index.js";
 
 const router=express.Router();
 
